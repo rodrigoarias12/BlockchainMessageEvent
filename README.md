@@ -1,6 +1,7 @@
 # Using tye with rabbitmq 
-Configure tye.yaml
 
+
+```Configure tye.yaml
 name: blockchainmessageevent
 services:
 - name: microservicemessagepub
@@ -17,3 +18,4 @@ services:
     - name: amqp
       protocol: amqp
       port: 5672
+```
